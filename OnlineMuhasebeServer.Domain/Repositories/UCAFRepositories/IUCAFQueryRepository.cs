@@ -1,0 +1,8 @@
+﻿using OnlineMuhasebeServer.Domain.AppEntities.CompanyEntities;
+
+namespace OnlineMuhasebeServer.Domain.Repositories.UCAFRepositories
+{
+	public interface IUCAFQueryRepository:IQueryRepository<UniformChartOfAccount>
+	{
+	}
+}

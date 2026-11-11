@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="14.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.3.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OnlineMuhasebeServer.Infrastructure\OnlineMuhasebeServer.Infrastructure.csproj" />
+    <ProjectReference Include="..\OnlineMuhasebeServer.Persistance\OnlineMuhasebeServer.Persistance.csproj" />
+  </ItemGroup>
+
+</Project>
